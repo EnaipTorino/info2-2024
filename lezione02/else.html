@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="risultato"></h1>
+    <script>
+        // salvo in elementoDOM l'elemento html il primo elemento
+        // della pagina con classe risultato
+        let elementoDOM = document.querySelector(".risultato")
+        // chiedo all'utente un input
+        let temperatura = prompt("Inserisci la temperatura:")
+        // se la temperatura è maggiore di 25 eseguo il blocco 1,
+        // altrimenti eseguo il blocco 2
+        if(temperatura > 25 ){
+            // blocco 1
+            console.log("Fa caldo")
+            //modifico l'elemento scrivendoci dentro del testo
+            elementoDOM.innerText = "Fa caldo"
+        }else{
+            // blocco 2
+            console.log("Fa freddo")
+            elementoDOM.innerText = "Fa freddo"
+        }
+    </script>
+</body>
+</html>
