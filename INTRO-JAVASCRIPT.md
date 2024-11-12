@@ -1,9 +1,7 @@
 
 # Intro Javascript
 
-https://raw.githubusercontent.com/microsoft/Web-Dev-For-Beginners/refs/heads/main/sketchnotes/webdev101-html.png
-
-![sketchnotes/webdev101-js-datatypes.png](https://raw.githubusercontent.com/microsoft/Web-Dev-For-Beginners/refs/heads/main/sketchnotes/webdev101-js-datatypes.png)
+![intro](https://raw.githubusercontent.com/microsoft/Web-Dev-For-Beginners/refs/heads/main/sketchnotes/webdev101-html.png)
 
 HTLM è lo scheletro di una pagina web.
 CSS è il suo stile, e layout.
