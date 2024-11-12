@@ -6,4 +6,4 @@ lo trasformiamo nella sua rappresentazione virtuale attraverso il RENDERING
 ## RENDERING
 HTML -> DOM (Document Object Model)
 
-https://it.wikipedia.org/wiki/Document_Object_Model
+[https://it.wikipedia.org/wiki/Document_Object_Model](https://it.wikipedia.org/wiki/Document_Object_Model)
