@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        img {
+            display: block;
+            width: 100%;
+            border: 2px solid black;
+        }
+
+        button {
+            border-radius: 50%;
+            aspect-ratio: 1;
+            background-color: #c70017;
+            color: white;
+            cursor: pointer;
+            padding: 0 15px;
+            font-weight: 700;
+        }
+
+        .prodotti {
+            display: flex;
+            gap: 20px;
+        }
+
+        .prodotto {
+            width: 100px;
+            gap: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    </style>
+    <div class="wrapper">
+        <h1 id="soldi">10</h1>
+        <div class="prodotti">
+            <div class="prodotto">
+                <img src="coca.jpg" alt="Coca cola">
+                <!-- Questo bottone chiama la funzione compra quando viene premuto -->
+                <button onclick="compra()">BUY</button>
+            </div>
+        </div>
+    </div>
+    <script>
+        // salvo l'elemento html con id soldi in una variabile
+        let soldiElemento = document.getElementById("soldi")
+
+        // definizione della funzione compra
+        function compra() {
+            console.log("Click!")
+            // parseInt trasforma una stringa di testo in numero 
+            soldi = parseInt(soldiElemento.innerText)
+            // aggiorno l'elemento decrementando soldi di uno
+            soldiElemento.innerText = soldi - 1
+        }
+    </script>
+</body>
+
+</html>

@@ -16,6 +16,13 @@ if (risposta == "si") {
     conteggioMare = conteggioMare + 1
 }
 
+risposta = prompt("Ti piace la neve?")
+if (risposta == "si") {
+    conteggioMontagna = conteggioMontagna + 1
+} else {
+    conteggioMare = conteggioMare + 1
+}
+
 if( conteggioMare > conteggioMontagna){
     elemento.innerText = "Sei un tipo da mare"
 }else{
